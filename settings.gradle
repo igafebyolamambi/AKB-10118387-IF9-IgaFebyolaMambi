@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Tugas_UTS_AKB_IF-9_IgaFebyolaMambi"

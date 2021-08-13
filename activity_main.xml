@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/gradasi3"
+    tools:context=".MainActivity">
+
+    //13082021_10118387_IF-9_IgaFebyolaMambi
+
+    <ImageView
+        android:id="@+id/ivGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_baseline_beach_access_24" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_below="@+id/ivGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Welcome to My Aplication!"/>
+
+    <Button
+        android:id="@+id/btnGabung"
+        android:layout_below="@id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuk Gabung!! :)"/>
+
+
+</RelativeLayout>

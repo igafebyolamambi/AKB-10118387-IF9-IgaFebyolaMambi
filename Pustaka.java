@@ -1,0 +1,15 @@
+//13082021_10118387_IF-9_IgaFebyolaMambi
+package com.example.uts_akb_10118387_if_9_igafebyolamambi;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Pustaka extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pustaka);
+    }
+}
